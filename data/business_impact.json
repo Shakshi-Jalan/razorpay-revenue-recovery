@@ -1,0 +1,10 @@
+{
+  "baseline_net": 938854.78,
+  "ai_net": 2243148.7199999997,
+  "additional_recovery": 1304293.9399999997,
+  "improvement_percent": 138.92392814999565,
+  "attempts": 500,
+  "outreach_cost": 12500.0,
+  "baseline_recovered_revenue": 951354.78,
+  "ai_recovered_revenue": 2255648.7199999997
+}
