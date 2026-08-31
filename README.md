@@ -39,32 +39,21 @@ The system predicts recovery probability and estimates the expected recoverable 
 
 The system follows this workflow:
 
-**Failed Payment Data**
-↓
-**Data Processing**
-↓
-**Random Forest Model**
-↓
-**Recovery Probability**
-↓
-**Expected Recoverable Revenue**
-↓
-**Recovery Priority**
-↓
-**Model Confidence**
-↓
-**Recovery Decision**
-↓
-**Recovery Action**
-↓
-**Payment Link / Human Review / Stop**
-↓
-**Audit Trail**
-↓
-**Streamlit Dashboard**
-
----
-
+```mermaid
+flowchart TD
+    A[Failed Payment Data] --> B[Data Processing]
+    B --> C[Random Forest Model]
+    C --> D[Recovery Probability]
+    D --> E[Expected Recoverable Revenue]
+    E --> F[Recovery Priority]
+    F --> G[Model Confidence]
+    G --> H[Recovery Decision]
+    H --> I[Recovery Action]
+    I --> J[Payment Link / Human Review / Stop]
+    J --> K[Audit Trail]
+    K --> L[Streamlit Dashboard]
+    ```
+    
 ## 📊 Dataset
 
 The project uses a simulated dataset containing **10,000 payment records**.
