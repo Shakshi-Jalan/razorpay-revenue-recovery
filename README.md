@@ -52,22 +52,22 @@ flowchart TD
     I --> J[Payment Link / Human Review / Stop]
     J --> K[Audit Trail]
     K --> L[Streamlit Dashboard]
-    ```
-    
+```
+
 ## 📊 Dataset
 
 The project uses a simulated dataset containing **10,000 payment records**.
 
 The dataset contains information such as:
 
-* Payment amount
-* Payment method
-* Hour of day
-* Day of week
-* Retry count
-* Failure reason
-* Failure source
-* Failure step
+- Payment amount
+- Payment method
+- Hour of day
+- Day of week
+- Retry count
+- Failure reason
+- Failure source
+- Failure step
 * Customer tenure
 * Previous successful payments
 * Previous failed payments
